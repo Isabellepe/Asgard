@@ -7,108 +7,126 @@
     padding: 0%;
 }
 
-header{
-    color: black; 
-    padding: 20px; 
-    font-family: "MedievalSharp", cursive;
-    font-weight: 200px;
-    font-style: normal;
-    font-size: 15px; 
-}
-
-header img{
-    width: 100%; 
-    height: 50px; 
-    border-radius: 10px; 
-    object-fit: contain; 
-    
-}
-
 body{
-
     background-color: #694410;
 }
 
-nav{
-    text-align: right;
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#logoimg{
+    width: 50px;
+    border-radius: 10px;
+    display: inline-block;
+    flex-direction: row;
+    
+}
+
+#logo{
+    width: 50px;
+    border-radius: 10px;
+    display: inline-block;
+    flex-direction: row;
+    color: white;
+}
+
+header{
+    background: #694410;
+    background: linear-gradient(0deg, rgba(105, 68, 16, 1) 0%, rgba(97, 63, 15, 1) 30%, rgba(51, 33, 0, 1) 100%);
 }
 
 nav a{
-    text-decoration: none; 
-    color: black; 
-    display: inline-block; 
-    margin: 20px; 
-    padding: 10px 20px; 
-    background: #F7B847;
-    background: radial-gradient(circle, rgba(247, 184, 71, 1) 0%, rgba(251, 185, 79, 1) 50%, rgba(249, 209, 149, 1) 100%); 
-    border-radius: 10px; 
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #694410be;
+    border-radius: 10px;
 }
 
 nav a:hover{
     background-color: #CBB39C;
-    color: black; 
-    font-size: 15px; 
+    font-size: 16px;
 }
 
-main{
+#principal{
     text-align: center;
-}
-
-#slogan{
-    background-image: url(./imagens/banner.png);
-
-    background-size: cover;
-
+    background-image:url(./imagens/logotranspa.png);
+    background-size: contain;
     background-repeat: no-repeat;
-
     background-position: center;
-
 }
 
-#slogan h1{
+h1{
     font-family: 'MedievalSharp';
     font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
+    font-weight: 900;
     font-display: swap;
+    font-size: 80px;
     color: white;
+    
 }
 
-#slogan p{
+p{
     font-family: 'Macondo';
     font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    font-display: swap;
+    font-weight: 900;
+    font-display: swap; 
+    font-size: 30px;
     color: white;
 }
 
-#titulo{
-    font-family: "Macondo", cursive;
-    font-weight: 100px;
-    font-style: normal;
-    font-size: 50px;
-}
-
-.card{ 
-    display: inline-block; 
-    width: 250px;
-    margin: 15px; 
-    padding: 10px; 
+.card{
+    display: inline-block;
+    width: 350px;
+    margin: 40px;
+    padding: 10px;
     background: #F7B847;
     background: radial-gradient(circle, rgba(247, 184, 71, 1) 0%, rgba(251, 185, 79, 1) 50%, rgba(249, 209, 149, 1) 100%);
     border-radius: 10px;
-    font-family: 'Macondo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    font-display: swap;
-    color: black;
+    
+}
+.cardsmash{
+    display: inline-block;
+    width: 350px;
+    margin: 150px;
+    padding: 10px;
+    background: #F7B847;
+    background: radial-gradient(circle, rgba(247, 184, 71, 1) 0%, rgba(251, 185, 79, 1) 50%, rgba(249, 209, 149, 1) 100%);
+    border-radius: 10px;
+}
+
+.cardsmash img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .card img{
-    width: 100%; 
-    height: 200px; 
-    border-radius: 10px; 
-    object-fit: cover; 
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+#produtos{
+    font-family: 'Macondo';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    text-align: center;
+    font-size: 30px;
+    color: #694410;
+}
+
+#menu{
+    background-image:url(./imagens/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
