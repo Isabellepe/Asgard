@@ -130,3 +130,137 @@ p{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+#heimdall{
+    font-family: 'Macondo';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    text-align: center;
+    font-size: 30px;
+    color: #694410;
+}
+
+.cardheimdall{
+    display: inline-block;
+    width: 350px;
+    margin: 100px;
+    padding: 10px;
+    background: #F7B847;
+    background: radial-gradient(circle, rgba(247, 184, 71, 1) 0%, rgba(251, 185, 79, 1) 50%, rgba(249, 209, 149, 1) 100%);
+    border-radius: 10px;
+}
+
+.cardheimdall img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cardheimdall2{
+    display: inline-block;
+    width: 500px;
+    height: 630px;
+    margin: 50px;
+    padding: 10px;
+    background: #F7B847;
+    background: radial-gradient(circle, rgba(247, 184, 71, 1) 0%, rgba(251, 185, 79, 1) 50%, rgba(249, 209, 149, 1) 100%);
+    border-radius: 10px;
+}
+
+.ingredientes{
+    display: flexbox;
+    justify-content: center;
+    font-family: 'Macondo';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    font-size: 20px;
+    color: #694410;
+    
+}
+
+#queijocarne{
+    font-family: 'Macondo';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    text-align: center;
+    font-size: 30px;
+    color: #694410;
+}
+
+.cardheimdall2 img{
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cardloki2{
+    display: inline-block;
+    width: 500px;
+    height: 650px;
+    margin: 50px;
+    padding: 10px;
+    background: #F7B847;
+    background: radial-gradient(circle, rgba(247, 184, 71, 1) 0%, rgba(251, 185, 79, 1) 50%, rgba(249, 209, 149, 1) 100%);
+    border-radius: 10px;
+}
+
+.cardloki2 img{
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cardacompanhamento{
+    display: inline-block;
+    width: 350px;
+    margin: 100px;
+    padding: 10px;
+    background: #F7B847;
+    background: radial-gradient(circle, rgba(247, 184, 71, 1) 0%, rgba(251, 185, 79, 1) 50%, rgba(249, 209, 149, 1) 100%);
+    border-radius: 10px;
+}
+
+.cardacompanhamento img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cardacompanhamento2{
+    display: inline-block;
+    width: 450px;
+    height: 280px;
+    margin: 70px;
+    padding: 10px;
+    background: #F7B847;
+    background: radial-gradient(circle, rgba(247, 184, 71, 1) 0%, rgba(251, 185, 79, 1) 50%, rgba(249, 209, 149, 1) 100%);
+    border-radius: 10px;
+}
+
+.cardacompanhamento2 img{
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cardpalito{
+    display: inline-block;
+    width: 450px;
+    height: 250px;
+    margin: 70px;
+    padding: 10px;
+    background: #F7B847;
+    background: radial-gradient(circle, rgba(247, 184, 71, 1) 0%, rgba(251, 185, 79, 1) 50%, rgba(249, 209, 149, 1) 100%);
+    border-radius: 10px;
+}
+
+.cardpalito img{
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
