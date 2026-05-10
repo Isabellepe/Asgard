@@ -304,13 +304,21 @@ p{
 
 .cardsobre{
     display: inline-block;
-    width: 940px;
-    height: 310px;
-    margin: 200px;
+    width: 850px;
+    height: 480px;
+    margin-top: 45px;
+    margin-left: 250px;
     padding: 15px;
     background: #F7B847;
     background: radial-gradient(circle, rgba(247, 184, 71, 1) 0%, rgba(251, 185, 79, 1) 50%, rgba(249, 209, 149, 1) 100%);
     border-radius: 10px;
+}
+
+.cardsobre img{
+    width: 800px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 10px;
 }
 
 #maps a{
@@ -380,6 +388,12 @@ p{
 
 #rodapélocal img{
     width: 30px;
+    object-fit: cover;
+}
+
+.cardlinha img{
+    width: 200px;
+    border-radius: 10px;
     object-fit: cover;
 }
 
